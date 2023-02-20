@@ -1,0 +1,18 @@
+if game.PlaceId == 1962086868 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Peters-Hub/tower-of-hell/main/script",true))()
+end
+
+if game.PlaceId == 8750997647 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Peters-Hub/script-one-Tapping-Legends-X/main/View",true))()
+else
+
+if game.PlaceId == 8540346411 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Peters-Hub/Rebirth-Champions-X/main/script",true))()
+else
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "Game Not Found"; -- the title 
+Text = "Game not supported."; -- what the text says 
+Duration = 5; -- how long the notification should in secounds
+})
+end
